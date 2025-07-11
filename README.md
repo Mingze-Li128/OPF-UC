@@ -23,5 +23,36 @@ using Pkg
 Pkg.add("JuMP")
 Pkg.add("Gurobi")
 Pkg.add("Ipopt")
+```
 
-## 4. Run OPf.ipynb
+## 4. Run OPF.ipynb
+
+# Unit Commitment using Gurobi
+
+This project demonstrates solving the Unit Commitment (UC) problem using Python and the Gurobi solver. The problem is solved with the `gurobipy` package and is modeled in the `UCTBM_gurobi.ipynb` Jupyter notebook.
+
+## 1. Install Python 3.10+
+
+Make sure you have Python 3.10 or later installed. To install Python, follow these steps:
+
+- Go to the [official Python website](https://www.python.org/downloads/).
+- Download and install Python 3.10 or later for your operating system.
+- Follow the installation instructions for your OS.
+
+## 2. Install the `gurobipy` Package
+
+You need to install the `gurobipy` package to solve the Unit Commitment problem. To install it, follow these steps:
+
+1. **Install the Gurobi solver:**
+   - Go to the [Gurobi website](https://www.gurobi.com/) and follow the installation instructions.
+   - Make sure you have a valid Gurobi license.
+
+2. **Install `gurobipy` package using pip:**
+
+   Open a terminal or command prompt and run the following command:
+
+   ```bash
+   pip install gurobipy
+   ```
+
+## 3. Run UCTBM_gurobi.ipynb
