@@ -69,12 +69,11 @@ Lei Fan  lfan8@Central.UH.EDU
 If you use this project in your research or work, please cite the following:
 
 ```bibtex
-@misc{Optimal Power System Operations and Planning,
-  author       = {Mingze Li, Zhongqi Zhao, Lei Fan},
+@misc{FanLabPowerCode,
+  author       = { Li, Mingze and Zhao, Zhongqi and Fan, Lei},
   title        = {Optimal Power System Operations and Planning},
   year         = {2025},
   url          = {https://github.com/Mingze-Li128/OPF-UC},
-  note         = {Accessed: 2025-07-11}
 }
 
 
