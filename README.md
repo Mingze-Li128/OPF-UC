@@ -43,11 +43,11 @@ Make sure you have Python 3.10 or later installed. To install Python, follow the
 
 You need to install the `gurobipy` package to solve the Unit Commitment problem. To install it, follow these steps:
 
-1. **Install the Gurobi solver:**
+1. Install the Gurobi solver:
    - Go to the [Gurobi website](https://www.gurobi.com/) and follow the installation instructions.
    - Make sure you have a valid Gurobi license.
 
-2. **Install `gurobipy` package using pip:**
+2. Install `gurobipy` package using pip:
 
    Open a terminal or command prompt and run the following command:
 
@@ -56,3 +56,26 @@ You need to install the `gurobipy` package to solve the Unit Commitment problem.
    ```
 
 ## 3. Run UCTBM_gurobi.ipynb
+
+# Authors
+Mingze Li mli44@central.uh.edu
+
+Zhongqi Zhao zzhao27@uh.edu
+
+Lei Fan  lfan8@Central.UH.EDU
+
+## Citation
+
+If you use this project in your research or work, please cite the following:
+
+```bibtex
+@misc{Optimal Power Flow and Unit Commitment Optimization,
+  author       = {Mingze Li, Zhongqi Zhao, Lei Fan},
+  title        = {Optimal Power Flow and Unit Commitment Optimization},
+  year         = {2025},
+  url          = {https://github.com/Mingze-Li128/OPF-UC},
+  note         = {Accessed: 2025-07-11}
+}
+
+
+
